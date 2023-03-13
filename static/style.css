@@ -1,0 +1,734 @@
+body {
+    background-color:#90D79E;
+    font-family: Bahnschrift;
+    font-size: 20px;
+}
+
+img {
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 700px;
+    height:700px;
+}
+#myImage {
+  display:flex;
+  position:relative;
+  margin-left:150px;
+  width:700px;
+  height:700px;
+  background-image:url("empty.png");
+  background-repeat: no-repeat;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+ul{
+  align-content: center;
+}
+/*row1*/
+a.apples1 {
+  display:block; position:absolute;
+  top:103px; left:90px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples2 {
+  display:block; position:absolute;
+  top:150px; left:90px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples3 {
+  display:block; position:absolute;
+  top:200px; left:90px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples4 {
+  display:block; position:absolute;
+  top:248px; left:90px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples5 {
+  display:block; position:absolute;
+  top:295px; left:90px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples6 {
+  display:block; position:absolute;
+  top:345px; left:90px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples7 {
+  display:block; position:absolute;
+  top:392px; left:90px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples8 {
+  display:block; position:absolute;
+  top:440px; left:90px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples9 {
+  display:block; position:absolute;
+  top:489px; left:90px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples10 {
+  display:block; position:absolute;
+  top:537px; left:90px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples11 {
+  display:block; position:absolute;
+  top:585px; left:90px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+/*row1 -- end*/
+/*row2*/
+a.apples12 {
+  display:block; position:absolute;
+  top:103px; left:153px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples13 {
+  display:block; position:absolute;
+  top:150px; left:153px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples14 {
+  display:block; position:absolute;
+  top:200px; left:153px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples15 {
+  display:block; position:absolute;
+  top:248px; left:153px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples16 {
+  display:block; position:absolute;
+  top:295px; left:153px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples17 {
+  display:block; position:absolute;
+  top:345px; left:153px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples18 {
+  display:block; position:absolute;
+  top:392px; left:153px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples19 {
+  display:block; position:absolute;
+  top:440px; left:153px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples20 {
+  display:block; position:absolute;
+  top:489px; left:153px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples21 {
+  display:block; position:absolute;
+  top:537px; left:153px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples22 {
+  display:block; position:absolute;
+  top:585px; left:153px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+/*row2 -- end*/
+/*row3*/
+a.apples23 {
+  display:block; position:absolute;
+  top:103px; left:217px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples24 {
+  display:block; position:absolute;
+  top:150px; left:217px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples25 {
+  display:block; position:absolute;
+  top:200px; left:217px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples26 {
+  display:block; position:absolute;
+  top:248px; left:217px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples27 {
+  display:block; position:absolute;
+  top:295px; left:217px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples28 {
+  display:block; position:absolute;
+  top:345px; left:217px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples29 {
+  display:block; position:absolute;
+  top:392px; left:217px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples30 {
+  display:block; position:absolute;
+  top:440px; left:217px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples31 {
+  display:block; position:absolute;
+  top:489px; left:217px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples32 {
+  display:block; position:absolute;
+  top:537px; left:217px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples33 {
+  display:block; position:absolute;
+  top:585px; left:217px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+/*row3 -- end*/
+/*row4*/
+a.apples34 {
+  display:block; position:absolute;
+  top:55px; left:280px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples35 {
+  display:block; position:absolute;
+  top:103px; left:280px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples36 {
+  display:block; position:absolute;
+  top:150px; left:280px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples37 {
+  display:block; position:absolute;
+  top:200px; left:280px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples38 {
+  display:block; position:absolute;
+  top:248px; left:280px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples39 {
+  display:block; position:absolute;
+  top:295px; left:280px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples40 {
+  display:block; position:absolute;
+  top:345px; left:280px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples41 {
+  display:block; position:absolute;
+  top:392px; left:280px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples42 {
+  display:block; position:absolute;
+  top:440px; left:280px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples43 {
+  display:block; position:absolute;
+  top:489px; left:280px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples44 {
+  display:block; position:absolute;
+  top:537px; left:280px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples45 {
+  display:block; position:absolute;
+  top:585px; left:280px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples46 {
+  display:block; position:absolute;
+  top:633px; left:280px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+/*row4 -- end*/
+/*row5*/
+a.apples47 {
+  display:block; position:absolute;
+  top:55px; left:345px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples48 {
+  display:block; position:absolute;
+  top:103px; left:345px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples49 {
+  display:block; position:absolute;
+  top:150px; left:345px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples50 {
+  display:block; position:absolute;
+  top:200px; left:345px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples51 {
+  display:block; position:absolute;
+  top:248px; left:345px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples52 {
+  display:block; position:absolute;
+  top:295px; left:345px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples53 {
+  display:block; position:absolute;
+  top:345px; left:345px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples54 {
+  display:block; position:absolute;
+  top:392px; left:345px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples55 {
+  display:block; position:absolute;
+  top:440px; left:345px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples56 {
+  display:block; position:absolute;
+  top:489px; left:345px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples57 {
+  display:block; position:absolute;
+  top:537px; left:345px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples58 {
+  display:block; position:absolute;
+  top:585px; left:345px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+a.apples59 {
+  display:block; position:absolute;
+  top:633px; left:345px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+/*row5 -- end*/
+/*row6*/
+a.apples60 {
+  display:block; position:absolute;
+  top:55px; left:408px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples61 {
+  display:block; position:absolute;
+  top:103px; left:408px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples62 {
+  display:block; position:absolute;
+  top:150px; left:408px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples63 {
+  display:block; position:absolute;
+  top:200px; left:408px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples64 {
+  display:block; position:absolute;
+  top:248px; left:408px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples65 {
+  display:block; position:absolute;
+  top:295px; left:408px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples66 {
+  display:block; position:absolute;
+  top:345px; left:408px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples67 {
+  display:block; position:absolute;
+  top:392px; left:408px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples68 {
+  display:block; position:absolute;
+  top:440px; left:408px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples69 {
+  display:block; position:absolute;
+  top:489px; left:408px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples70 {
+  display:block; position:absolute;
+  top:537px; left:408px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples71 {
+  display:block; position:absolute;
+  top:585px; left:408px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples72 {
+  display:block; position:absolute;
+  top:633px; left:408px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+/*row 6 -- end*/
+/*row7*/
+a.apples73 {
+  display:block; position:absolute;
+  top:103px; left:472px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples74 {
+  display:block; position:absolute;
+  top:150px; left:472px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples75 {
+  display:block; position:absolute;
+  top:200px; left:472px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples76 {
+  display:block; position:absolute;
+  top:248px; left:472px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples77 {
+  display:block; position:absolute;
+  top:295px; left:472px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples78 {
+  display:block; position:absolute;
+  top:345px; left:472px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples79 {
+  display:block; position:absolute;
+  top:392px; left:472px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples80 {
+  display:block; position:absolute;
+  top:440px; left:472px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples81 {
+  display:block; position:absolute;
+  top:489px; left:472px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples82 {
+  display:block; position:absolute;
+  top:537px; left:472px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples83 {
+  display:block; position:absolute;
+  top:585px; left:472px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+/*row 7 -- end*/
+/*row8*/
+a.apples84 {
+  display:block; position:absolute;
+  top:103px; left:535px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples85 {
+  display:block; position:absolute;
+  top:150px; left:535px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples86 {
+  display:block; position:absolute;
+  top:200px; left:535px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples87 {
+  display:block; position:absolute;
+  top:248px; left:535px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples88 {
+  display:block; position:absolute;
+  top:295px; left:535px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples89 {
+  display:block; position:absolute;
+  top:345px; left:535px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples90 {
+  display:block; position:absolute;
+  top:392px; left:535px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples91 {
+  display:block; position:absolute;
+  top:440px; left:535px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples92 {
+  display:block; position:absolute;
+  top:489px; left:535px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples93 {
+  display:block; position:absolute;
+  top:537px; left:535px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples94 {
+  display:block; position:absolute;
+  top:585px; left:535px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+/*row8 -- end*/
+/*row9*/
+a.apples95 {
+  display:block; position:absolute;
+  top:103px; left:599px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples96 {
+  display:block; position:absolute;
+  top:150px; left:599px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples97 {
+  display:block; position:absolute;
+  top:200px; left:599px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples98 {
+  display:block; position:absolute;
+  top:248px; left:599px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples99 {
+  display:block; position:absolute;
+  top:295px; left:599px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples100 {
+  display:block; position:absolute;
+  top:345px; left:599px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples101 {
+  display:block; position:absolute;
+  top:392px; left:599px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples102 {
+  display:block; position:absolute;
+  top:440px; left:599px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples103 {
+  display:block; position:absolute;
+  top:489px; left:599px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples104 {
+  display:block; position:absolute;
+  top:537px; left:599px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+a.apples105 {
+  display:block; position:absolute;
+  top:585px; left:599px; width:12px; height:12px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+#pilka {
+  height: 15px;
+  width: 15px;
+  background-color: black;
+  border-radius: 50%;
+}
+li {
+  list-style-type: none;
+}
+a:hover{
+  border:1px solid black;
+}
+#myImage a span {
+  display:none;
+}
+.bramka1{
+  display:block; position:absolute;
+  top:5px; left:300px; width:15px; height:15px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size:80%;
+}
+.bramka2{
+  display:block; position:absolute;
+  top:650px; left:300px; width:15px; height:15px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size:80%;
+}
+#start{
+    margin: auto;
+  width: 50%;
+  font-size: 20px;
+  border: 6px solid green;
+  padding: 10px;
+  margin-top:300px;
+  text-align: center;
+}
+#start a {
+  text-decoration: none;
+  color:forestgreen;
+}
+.form{
+  text-align: center;
+  font-size: 200%;
+}
+.fbox{
+  display:flex;
+  align-items: center;
+}
+.score{
+  align-self: center;
+  margin-left: 100px;
+}

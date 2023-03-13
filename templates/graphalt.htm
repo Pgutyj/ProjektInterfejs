@@ -1,0 +1,568 @@
+{% extends 'base.htm' %}
+<img>
+<head>
+    <link rel="stylesheet" href="../static/style.css"/>
+    {% block title %}Tryb gry{% endblock %}
+</head>
+{% block body %}
+
+<div id="myImage">
+  <ul>
+{# row1 #}
+    {% if (1,1) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=1, nod2=1) }}" {% if pilka == (1,1) %}  id="pilka" {% endif %}  class="apples1">
+            <span>xd</span></a>
+    </li>
+    {% endif %}
+  {% if (2,1) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=2, nod2=1) }}" {% if pilka == (2,1) %}  id="pilka" {% endif %} class="apples2"></a>
+    </li>
+  {% endif %}
+{% if (3,1) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=3, nod2=1) }}" {% if pilka == (3,1) %}  id="pilka" {% endif %} class="apples3"></a>
+    </li>
+  {% endif %}
+{% if (4,1) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=4, nod2=1) }}" {% if pilka == (4,1) %}  id="pilka" {% endif %} class="apples4"></a>
+    </li>
+  {% endif %}
+{% if (5,1) in al %}
+    <li>
+
+        <a href="{{ url_for('show_graph', nod1=5, nod2=1) }}" {% if pilka == (5,1) %}  id="pilka" {% endif %} class="apples5"></a>
+    </li>
+  {% endif %}
+{% if (6,1) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=6, nod2=1) }}" {% if pilka == (6,1) %}  id="pilka" {% endif %} class="apples6"></a>
+    </li>
+  {% endif %}
+{% if (7,1) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=7, nod2=1) }}" {% if pilka == (7,1) %}  id="pilka" {% endif %} class="apples7"></a>
+    </li>
+  {% endif %}
+{% if (8,1) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=8, nod2=1) }}" {% if pilka == (8,1) %}  id="pilka" {% endif %} class="apples8"></a>
+    </li>
+  {% endif %}
+{% if (9,1) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=9, nod2=1) }}" {% if pilka == (9,1) %}  id="pilka" {% endif %} class="apples9"></a>
+    </li>
+  {% endif %}
+{% if (10,1) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=10, nod2=1) }}" {% if pilka == (10,1) %}  id="pilka" {% endif %} class="apples10"></a>
+    </li>
+  {% endif %}
+{% if (11,1) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=11, nod2=1) }}" {% if pilka == (11,1) %}  id="pilka" {% endif %} class="apples11"></a>
+    </li>
+  {% endif %}
+
+{# row2 #}
+
+{% if (1,2) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=1, nod2=2) }}" {% if pilka == (1,2) %}  id="pilka" {% endif %} class="apples12"></a>
+    </li>
+  {% endif %}
+  {% if (2,2) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=2, nod2=2) }}" {% if pilka == (2,2) %}  id="pilka" {% endif %} class="apples13"></a>
+    </li>
+  {% endif %}
+  {% if (3,2) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=3, nod2=2) }}" {% if pilka == (3,2) %}  id="pilka" {% endif %} class="apples14"></a>
+    </li>
+  {% endif %}
+  {% if (4,2) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=4, nod2=2) }}" {% if pilka == (4,2) %}  id="pilka" {% endif %} class="apples15"></a>
+    </li>
+  {% endif %}
+  {% if (5,2) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=5, nod2=2) }}" {% if pilka == (5,2) %}  id="pilka" {% endif %} class="apples16"></a>
+    </li>
+  {% endif %}
+  {% if (6,2) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=6, nod2=2) }}" {% if pilka == (6,2) %}  id="pilka" {% endif %} class="apples17"></a>
+    </li>
+  {% endif %}
+  {% if (7,2) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=7, nod2=2) }}" {% if pilka == (7,2) %}  id="pilka" {% endif %} class="apples18"></a>
+    </li>
+  {% endif %}
+  {% if (8,2) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=8, nod2=2) }}" {% if pilka == (8,2) %}  id="pilka" {% endif %} class="apples19"></a>
+    </li>
+  {% endif %}
+  {% if (9,2) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=9, nod2=2) }}" {% if pilka == (9,2) %}  id="pilka" {% endif %} class="apples20"></a>
+    </li>
+  {% endif %}
+  {% if (10,2) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=10, nod2=2) }}" {% if pilka == (10,2) %}  id="pilka" {% endif %} class="apples21"></a>
+    </li>
+  {% endif %}
+  {% if (11,2) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=11, nod2=2) }}" {% if pilka == (11,2) %}  id="pilka" {% endif %} class="apples22"></a>
+    </li>
+  {% endif %}
+
+{# row3 #}
+
+{% if (1,3) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=1, nod2=3) }}" {% if pilka == (1,3) %}  id="pilka" {% endif %} class="apples23"></a>
+    </li>
+  {% endif %}
+  {% if (2,3) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=2, nod2=3) }}" {% if pilka == (2,3) %}  id="pilka" {% endif %} class="apples24"></a>
+    </li>
+  {% endif %}
+  {% if (3,3) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=3, nod2=3) }}" {% if pilka == (3,3) %}  id="pilka" {% endif %} class="apples25"></a>
+    </li>
+  {% endif %}
+  {% if (4,3) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=4, nod2=3) }}" {% if pilka == (4,3) %}  id="pilka" {% endif %} class="apples26"></a>
+    </li>
+  {% endif %}
+  {% if (5,3) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=5, nod2=3) }}" {% if pilka == (5,3) %}  id="pilka" {% endif %} class="apples27"></a>
+    </li>
+  {% endif %}
+  {% if (6,3) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=6, nod2=3) }}" {% if pilka == (6,3) %}  id="pilka" {% endif %} class="apples28"></a>
+    </li>
+  {% endif %}
+  {% if (7,3) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=7, nod2=3) }}" {% if pilka == (7,3) %}  id="pilka" {% endif %} class="apples29"></a>
+    </li>
+  {% endif %}
+  {% if (8,3) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=8, nod2=3) }}" {% if pilka == (8,3) %}  id="pilka" {% endif %} class="apples30"></a>
+    </li>
+  {% endif %}
+  {% if (9,3) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=9, nod2=3) }}" {% if pilka == (9,3) %}  id="pilka" {% endif %} class="apples31"></a>
+    </li>
+  {% endif %}
+  {% if (10,3) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=10, nod2=3) }}" {% if pilka == (10,3) %}  id="pilka" {% endif %} class="apples32"></a>
+    </li>
+  {% endif %}
+  {% if (11,3) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=11, nod2=3) }}" {% if pilka == (11,3) %}  id="pilka" {% endif %} class="apples33"></a>
+    </li>
+  {% endif %}
+{# row 4 #}
+{% if (0,4) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=0, nod2=4) }}" {% if pilka == (0,4) %}  id="pilka" {% endif %} class="apples34"></a>
+    </li>
+  {% endif %}
+  {% if (1,4) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=1, nod2=4) }}" {% if pilka == (1,4) %}  id="pilka" {% endif %} class="apples35"></a>
+    </li>
+  {% endif %}
+  {% if (2,4) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=2, nod2=4) }}" {% if pilka == (2,4) %}  id="pilka" {% endif %} class="apples36"></a>
+    </li>
+  {% endif %}
+  {% if (3,4) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=3, nod2=4) }}" {% if pilka == (3,4) %}  id="pilka" {% endif %} class="apples37"></a>
+    </li>
+  {% endif %}
+  {% if (4,4) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=4, nod2=4) }}" {% if pilka == (4,4) %}  id="pilka" {% endif %} class="apples38"></a>
+    </li>
+  {% endif %}
+  {% if (5,4) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=5, nod2=4) }}" {% if pilka == (5,4) %}  id="pilka" {% endif %} class="apples39"></a>
+    </li>
+  {% endif %}
+  {% if (6,4) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=6, nod2=4) }}" {% if pilka == (6,4) %}  id="pilka" {% endif %} class="apples40"></a>
+    </li>
+  {% endif %}
+  {% if (7,4) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=7, nod2=4) }}" {% if pilka == (7,4) %}  id="pilka" {% endif %} class="apples41"></a>
+    </li>
+  {% endif %}
+  {% if (8,4) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=8, nod2=4) }}" {% if pilka == (8,4) %}  id="pilka" {% endif %} class="apples42"></a>
+    </li>
+  {% endif %}
+  {% if (9,4) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=9, nod2=4) }}" {% if pilka == (9,4) %}  id="pilka" {% endif %} class="apples43"></a>
+    </li>
+  {% endif %}
+  {% if (10,4) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=10, nod2=4) }}" {% if pilka == (10,4) %}  id="pilka" {% endif %} class="apples44"></a>
+    </li>
+  {% endif %}
+  {% if (11,4) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=11, nod2=4) }}" {% if pilka == (11,4) %}  id="pilka" {% endif %} class="apples45"></a>
+    </li>
+  {% endif %}
+  {% if (12,4) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=12, nod2=4) }}" {% if pilka == (12,4) %}  id="pilka" {% endif %} class="apples46"></a>
+    </li>
+  {% endif %}
+
+{# row5 #}
+
+{% if (0,5) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=0, nod2=5) }}" {% if pilka == (0,5) %}  id="pilka" {% endif %} class="apples47"></a>
+    </li>
+  {% endif %}
+  {% if (1,5) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=1, nod2=5) }}" {% if pilka == (1,5) %}  id="pilka" {% endif %} class="apples48"></a>
+    </li>
+  {% endif %}
+  {% if (2,5) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=2, nod2=5) }}" {% if pilka == (2,5) %}  id="pilka" {% endif %} class="apples49"></a>
+    </li>
+  {% endif %}
+  {% if (3,5) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=3, nod2=5) }}" {% if pilka == (3,5) %}  id="pilka" {% endif %} class="apples50"></a>
+    </li>
+  {% endif %}
+  {% if (4,5) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=4, nod2=5) }}" {% if pilka == (4,5) %}  id="pilka" {% endif %} class="apples51"></a>
+    </li>
+  {% endif %}
+  {% if (5,5) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=5, nod2=5) }}" {% if pilka == (5,5) %}  id="pilka" {% endif %} class="apples52"></a>
+    </li>
+  {% endif %}
+  {% if (6,5) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=6, nod2=5) }}" {% if pilka == (6,5) %}  id="pilka" {% endif %} class="apples53"></a>
+    </li>
+  {% endif %}
+  {% if (7,5) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=7, nod2=5) }}" {% if pilka == (7,5) %}  id="pilka" {% endif %} class="apples54"></a>
+    </li>
+  {% endif %}
+  {% if (8,5) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=8, nod2=5) }}" {% if pilka == (8,5) %}  id="pilka" {% endif %} class="apples55"></a>
+    </li>
+  {% endif %}
+  {% if (9,5) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=9, nod2=5) }}" {% if pilka == (9,5) %}  id="pilka" {% endif %} class="apples56"></a>
+    </li>
+  {% endif %}
+  {% if (10,5) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=10, nod2=5) }}" {% if pilka == (10,5) %}  id="pilka" {% endif %} class="apples57"></a>
+    </li>
+  {% endif %}
+  {% if (11,5) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=11, nod2=5) }}" {% if pilka == (11,5) %}  id="pilka" {% endif %} class="apples58"></a>
+    </li>
+  {% endif %}
+  {% if (12,5) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=12, nod2=5) }}" {% if pilka == (12,5) %}  id="pilka" {% endif %} class="apples59"></a>
+    </li>
+  {% endif %}
+
+{# row6 #}
+
+{% if (0,6) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=0, nod2=6) }}" {% if pilka == (0,6) %}  id="pilka" {% endif %} class="apples60"></a>
+    </li>
+  {% endif %}
+  {% if (1,6) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=1, nod2=6) }}" {% if pilka == (1,6) %}  id="pilka" {% endif %} class="apples61"></a>
+    </li>
+  {% endif %}
+  {% if (2,6) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=2, nod2=6) }}" {% if pilka == (2,6) %}  id="pilka" {% endif %} class="apples62"></a>
+    </li>
+  {% endif %}
+  {% if (3,6) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=3, nod2=6) }}" {% if pilka == (3,6) %}  id="pilka" {% endif %} class="apples63"></a>
+    </li>
+  {% endif %}
+  {% if (4,6) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=4, nod2=6) }}" {% if pilka == (4,6) %}  id="pilka" {% endif %} class="apples64"></a>
+    </li>
+  {% endif %}
+  {% if (5,6) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=5, nod2=6) }}" {% if pilka == (5,6) %}  id="pilka" {% endif %} class="apples65"></a>
+    </li>
+  {% endif %}
+  {% if (6,6) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=6, nod2=6) }}" {% if pilka == (6,6) %}  id="pilka" {% endif %} class="apples66"></a>
+    </li>
+  {% endif %}
+  {% if (7,6) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=7, nod2=6) }}" {% if pilka == (7,6) %}  id="pilka" {% endif %} class="apples67"></a>
+    </li>
+  {% endif %}
+  {% if (8,6) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=8, nod2=6) }}" {% if pilka == (8,6) %}  id="pilka" {% endif %} class="apples68"></a>
+    </li>
+  {% endif %}
+  {% if (9,6) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=9, nod2=6) }}" {% if pilka == (9,6) %}  id="pilka" {% endif %} class="apples69"></a>
+    </li>
+  {% endif %}
+  {% if (10,6) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=10, nod2=6) }}" {% if pilka == (10,6) %}  id="pilka" {% endif %} class="apples70"></a>
+    </li>
+  {% endif %}
+  {% if (11,6) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=11, nod2=6) }}" {% if pilka == (11,6) %}  id="pilka" {% endif %} class="apples71"></a>
+    </li>
+  {% endif %}
+
+  {% if (12,6) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=12, nod2=6) }}" {% if pilka == (12,6) %}  id="pilka" {% endif %} class="apples72"></a>
+    </li>
+  {% endif %}
+
+{# row7 #}
+
+{% if (1,7) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=1, nod2=7) }}" {% if pilka == (1,7) %}  id="pilka" {% endif %} class="apples73"></a>
+    </li>
+  {% endif %}
+  {% if (2,7) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=2, nod2=7) }}" {% if pilka == (2,7) %}  id="pilka" {% endif %} class="apples74"></a>
+    </li>
+  {% endif %}
+  {% if (3,7) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=3, nod2=7) }}" {% if pilka == (3,7) %}  id="pilka" {% endif %} class="apples75"></a>
+    </li>
+  {% endif %}
+  {% if (4,7) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=4, nod2=7) }}" {% if pilka == (4,7) %}  id="pilka" {% endif %} class="apples76"></a>
+    </li>
+  {% endif %}
+  {% if (5,7) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=5, nod2=7) }}" {% if pilka == (5,7) %}  id="pilka" {% endif %} class="apples77"></a>
+    </li>
+  {% endif %}
+  {% if (6,7) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=6, nod2=7) }}" {% if pilka == (6,7) %}  id="pilka" {% endif %} class="apples78"></a>
+    </li>
+  {% endif %}
+  {% if (7,7) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=7, nod2=7) }}" {% if pilka == (7,7) %}  id="pilka" {% endif %} class="apples79"></a>
+    </li>
+  {% endif %}
+  {% if (8,7) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=8, nod2=7) }}" {% if pilka == (8,7) %}  id="pilka" {% endif %} class="apples80"></a>
+    </li>
+  {% endif %}
+  {% if (9,7) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=9, nod2=7) }}" {% if pilka == (9,7) %}  id="pilka" {% endif %} class="apples81"></a>
+    </li>
+  {% endif %}
+  {% if (10,7) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=10, nod2=7) }}" {% if pilka == (10,7) %}  id="pilka" {% endif %} class="apples82"></a>
+    </li>
+  {% endif %}
+  {% if (11,7) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=11, nod2=7) }}" {% if pilka == (11,7) %}  id="pilka" {% endif %} class="apples83"></a>
+    </li>
+  {% endif %}
+
+{# row8 #}
+
+{% if (1,8) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=1, nod2=8) }}" {% if pilka == (1,8) %}  id="pilka" {% endif %} class="apples84"></a>
+    </li>
+  {% endif %}
+  {% if (2,8) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=2, nod2=8) }}" {% if pilka == (2,8) %}  id="pilka" {% endif %} class="apples85"></a>
+    </li>
+  {% endif %}
+  {% if (3,8) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=3, nod2=8) }}" {% if pilka == (3,8) %}  id="pilka" {% endif %} class="apples86"></a>
+    </li>
+  {% endif %}
+  {% if (4,8) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=4, nod2=8) }}" {% if pilka == (4,8) %}  id="pilka" {% endif %} class="apples87"></a>
+    </li>
+  {% endif %}
+  {% if (5,8) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=5, nod2=8) }}" {% if pilka == (5,8) %}  id="pilka" {% endif %} class="apples88"></a>
+    </li>
+  {% endif %}
+  {% if (6,8) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=6, nod2=8) }}" {% if pilka == (6,8) %}  id="pilka" {% endif %} class="apples89"></a>
+    </li>
+  {% endif %}
+  {% if (7,8) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=7, nod2=8) }}" {% if pilka == (7,8) %}  id="pilka" {% endif %} class="apples90"></a>
+    </li>
+  {% endif %}
+  {% if (8,8) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=8, nod2=8) }}" {% if pilka == (8,8) %}  id="pilka" {% endif %} class="apples91">
+    </li>
+  {% endif %}
+  {% if (9,8) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=9, nod2=8) }}" {% if pilka == (9,8) %}  id="pilka" {% endif %} class="apples92">
+    </li>
+  {% endif %}
+  {% if (10,8) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=10, nod2=8) }}" {% if pilka == (10,8) %}  id="pilka" {% endif %} class="apples93"></a>
+    </li>
+  {% endif %}
+  {% if (11,8) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=11, nod2=8) }}" {% if pilka == (11,8) %}  id="pilka" {% endif %} class="apples94"></a>
+    </li>
+  {% endif %}
+
+{# row9 #}
+
+{% if (1,9) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=1, nod2=9) }}" {% if pilka == (1,9) %}  id="pilka" {% endif %} class="apples95"></a>
+    </li>
+  {% endif %}
+  {% if (2,9) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=2, nod2=9) }}" {% if pilka == (2,9) %}  id="pilka" {% endif %}class="apples96"></a>
+    </li>
+  {% endif %}
+  {% if (3,9) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=3, nod2=9) }}" {% if pilka == (3,9) %}  id="pilka" {% endif %}class="apples97"></a>
+    </li>
+  {% endif %}
+  {% if (4,9) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=4, nod2=9) }}" {% if pilka == (4,9) %}  id="pilka" {% endif %}class="apples98"></a>
+    </li>
+  {% endif %}
+  {% if (5,9) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=5, nod2=9) }}" {% if pilka == (5,9) %}  id="pilka" {% endif %}class="apples99"></a>
+    </li>
+  {% endif %}
+  {% if (6,9) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=6, nod2=9) }}" {% if pilka == (6,9) %}  id="pilka" {% endif %}class="apples100"></a>
+    </li>
+  {% endif %}
+  {% if (7,9) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=7, nod2=9) }}" {% if pilka == (7,9) %}  id="pilka" {% endif %}class="apples101"></a>
+    </li>
+  {% endif %}
+  {% if (8,9) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=8, nod2=9) }}" {% if pilka == (8,9) %}  id="pilka" {% endif %}class="apples102"></a>
+    </li>
+  {% endif %}
+  {% if (9,9) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=9, nod2=9) }}" {% if pilka == (9,9) %}  id="pilka" {% endif %}class="apples103"></a>
+    </li>
+  {% endif %}
+
+  {% if (10,9) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=10, nod2=9) }}" {% if pilka == (10,9) %}  id="pilka" {% endif %}class="apples104"></a>
+    </li>
+  {% endif %}
+
+  {% if (11,9) in al %}
+    <li>
+        <a href="{{ url_for('show_graph', nod1=11, nod2=9) }}" {% if pilka == (11,9) %}  id="pilka" {% endif %}class="apples105"></a>
+    </li>
+  {% endif %}
+
+  </ul>
+        {{ al }}
+</div>
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends 'base.htm' %}
+<html>
+<head>
+    <link rel="stylesheet" href="../static/style.css"/>
+    {% block title %}Tryb gry{% endblock %}
+</head>
+{% block body %}
+    <div class="form">
+<h1>piłkarzyki</h1>
+    Wybierz tryb gry:
+    <a href="{{ url_for('user_form') }}">HOTSEAT</a>
+    </div>
+{% endblock %}
+</html>

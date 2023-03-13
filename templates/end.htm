@@ -1,0 +1,15 @@
+{% extends 'base.htm' %}
+<html>
+<head>
+    <link rel="stylesheet" href="../static/style.css"/>
+    {% block title %}Tryb gry{% endblock %}
+</head>
+{% block body %}
+    <div id="start">
+        Wygrywa gracz {{ winner }}
+        <p>
+        <a href="{{url_for('start')}}">zagraj jeszcze raz</a>
+        </p>
+    </div>
+{% endblock %}
+</html>
